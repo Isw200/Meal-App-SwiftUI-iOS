@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct MealListItem: Identifiable {
+struct MealListItem: Identifiable, Codable {
     let id: String
     let name: String
     let thumbnail: String
